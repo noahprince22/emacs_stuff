@@ -158,11 +158,18 @@ xclip-mode 1
 
 (global-set-key (kbd "C-x p") 'ecb-goto-window-directories)
 (global-set-key (kbd "C-x SPC") 'toggle_ecb)
-;(global-set-key (kbd "C-x C-SPC") 'ecb-deactivate)
-;;speedbar
 
- (require 'sr-speedbar)
- (global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+;;speedbar
+(require 'sr-speedbar)
+(global-set-key (kbd "s-s") 'sr-speedbar-toggle)
+
+;;move by paragraph 
+(global-set-key "\M-n" 'forward-paragraph)
+(global-set-key "\M-p" 'backward-paragraph)
+
+
+
+
 
 
 
