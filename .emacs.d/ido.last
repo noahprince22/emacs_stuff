@@ -2,9 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/" . "default/")
+ ("/home/noah/apps/chef-repo_old/" . "site-cookbooks/")
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/" . "templates/")
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/" . "windows-build/")
+ ("/home/noah/apps/vagrant/dev/" . "WindowsVMs/")
+ ("/home/noah/apps/vagrant/" . "dev/")
  ("/home/noah/apps/" . "ci_server_test/")
  ("/home/" . "noah/")
- ("/home/noah/" . "apps/")
+ ("/home/noah/" . "Templates/")
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/" . "default/")
  ("/home/noah/apps/chef-repo/site-cookbooks/build/" . "attributes/")
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/" . "templates/")
@@ -14,6 +20,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/default/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/recipes/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/attributes/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/win-site/recipes/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/windows/recipes/"
+ "/home/noah/apps/chef-repo_old/site-cookbooks/"
+ "/home/noah/apps/vagrant/dev/WindowsVMs/"
+ "/home/noah/apps/vagrant/"
  "/home/noah/"
  "/home/noah/apps/ci_server_test/"
  "/home/noah/apps/chef-repo/"
@@ -32,23 +47,71 @@
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
- "git_thread.rb"
- "Capfile"
- "Cheffile"
- "google-chrome.desktop"
- "ssh_keys.erb"
- "authorized_keys.erb"
+ "hubscript.erb"
  "default.rb"
- "pangea_app.rb"
- "underwriting.feature"
+ "scripts.erb"
+ "software.rb"
+ "general.rb"
+ "base.rb"
+ "buildvm.rb"
+ "windows-build"
+ "Vagrantfile"
+ ".emacs"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/home/noah/Pictures/" 0 19 (help-echo "Mouse-2 toggles maximizing, mouse-3 displays a popup-menu")) (20985 29275 889428 257000) "Screenshot from 2013-07-26 14:42:31.png" "awesome.html" "./" "Awesomeness_Wallpaper_by_d_k0d3.jpg" "Screenshot from 2013-07-26 16:50:30.png" "../" "Screenshot from 2013-07-26 16:52:31.png" "Screenshot from 2013-07-31 15:23:55.png")
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/recipes/" (21009 8268 308115 183000) "default.rb" "software.rb" "./" "../")
 
- ("/home/noah/apps/ci_server_test/underwriting/features/" (20986 48690 353231 725000) "#underwriting.feature#" "underwriting_steps.rb" "underwriting.feature" "./" "../")
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/default/" (21006 44621 103304 542000) "scripts.erb" "./" "hubscript.erb" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/" (21006 38911 318991 252000) "./" "default/" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/" (21006 38269 775810 4000) "attributes/" "templates/" "./" "recipes/" "README.md" "../" "metadata.rb")
+
+ ("/home/" (21004 2303 985351 338000) "noah/" "fmaster/" "./" "../" "nprince/")
+
+ ("/home/noah/Templates/" (20969 22384 817583 277000) "./" "../")
+
+ ("/home/noah/" (21006 35064 371915 270000) ".purple/" ".gphoto/" ".emacs.d/" ".bash_history" "Public/" ".thunderbird/" ".wine-browser/" ".goutputstream-JF3X0W" ".pki/" ".pulse/" ".apport-ignore.xml" ".dmrc" ".gnome2_private/" ".gtk-bookmarks" "mbox" ".netExtenderCerts/" ".bashrc" ".profile" ".pulse1/" ".Xmodmap" ".ecb-user-layouts.el" ".thumbnails/" ".emacs.before_ecb_2.40" ".goutputstream-VG3E0W" "Templates/" ".emacs.before_ecb_2.40__1" ".netextender" "libpeerconnection.log" ".bash_logout" "Videos/" ".xsession-errors" ".ICEauthority" ".gitconfig" ".bashrc~" "devices" ".gksu.lock" "Pictures/" ".gconf/" "#.emacs#" "Downloads/" ".vagrant.d/" "hs_err_pid17018.log" "Desktop/" ".winff/" ".zprofile" ".VirtualBox/" "./" ".java/" "apps/" ".shotwell/" ".pry_history" ".avidemux/" "utils/" ".face" ".gnome2/" ".cache/" ".local/" ".mission-control/" ".gvfs/" "Documents/" ".Skype/" ".ssh/" "../" ".ecb-tip-of-day.el" ".Xauthority" ".xsession-errors.old" ".bash_profile" "VirtualBox VMs/" ".goutputstream-7DD4ZW" ".zshrc" ".fontconfig/" "Music/" ".config/" ".goutputstream-M0CC0W" ".gem/" ".dbus/" ".pulse-cookie" ".rvm/" ".netExtender.log" ".goutputstream-WC79ZW" "emacs_stuff/" ".goutputstream-RAOM0W" ".gstreamer-0.10/" ".compiz-1/" ".mozilla/" ".emacs")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows/recipes/" (21006 27395 509887 426000) "default.rb" "./" "reboot_handler.rb" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/win-site/recipes/" (21006 35164 92409 755000) "screen-saver.rb" "users.rb" ".#sshd.rb" "sshd.rb" "default.rb" "software.rb" "windows-update.rb" "base.rb" "general.rb" "#sshd.rb#" "./" "#software.rb#" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/attributes/" (21005 660 542577 548000) "software.rb" "./" "../")
+
+ ("/home/noah/apps/chef-repo_old/" (21003 48140 815246 354000) "Cheffile.lock" "gitserver_config/" "Rakefile.rb" "cloud-cfg/" "pangea-validator.pem" "Cheffile" "cookbooks/" ".gitignore" ".git/" "./" "certificates/" ".chef/" "environments/" "../" ".gitmodules" "site-cookbooks/" "tasks/" "roles/" "databags/" "chef-repo/")
+
+ ("/home/noah/apps/chef-repo_old/cookbooks/" (21003 41617 54896 783000) "daemontools/" "cron/" "openssl/" "apache2/" "zlib/" "nginx_simplecgi/" "openvpn/" "memcached/" "chef/" "chef_handler/" "openssh/" "runit/" "powershell/" "ulimit/" "munin/" "xml/" "subversion/" "postgresql/" "build-essential/" "chocolatey/" "git/" "rails/" "erlang/" "dotnetframework/" "couchdb/" "tmux/" "redisio/" "perl/" "bluepill/" "java/" "lvm/" "nagios/" "man/" "ohai/" "passenger_apache2/" "./" "ntp/" "postfix/" "yum/" "partial_search/" "packages/" "ssh_known_hosts/" "ucspi-tcp/" "sudo/" "openldap/" "apt/" "ruby/" "mysql/" "vim/" "../" "users/" "fail2ban/" "rubygems/" "rsyslog/" "chef-server/" "ubuntu/" "dmg/" "iptables/" "samba/" "redis/" "nscd/" "homebrew/" "windows/" "rsync/" "logrotate/" "screen/" "php/" "chef-client/" "nginx/")
+
+ ("/home/noah/apps/chef-repo_old/cookbooks/chocolatey/" (20985 11855 712872 938000) "attributes/" "./" "recipes/" "README.md" "../" "providers/" "resources/" "metadata.rb")
+
+ ("/home/noah/apps/chef-repo_old/cookbooks/chocolatey/recipes/" (20985 11855 712872 938000) "default.rb" "./" "../")
+
+ ("/home/noah/apps/ci_server_test/underwriting/features/" (21005 1690 19682 448000) "#underwriting.feature#" "underwriting_steps.rb" "underwriting.feature" "./" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/" (21005 452 589546 365000) "nut/" "freepbx/" "win-site/" "apache2/" "iprenew/" "showings/" "asterisk/" "site/" "openvpn/" "workflow/" "chef/" "etckeeper/" "pangeare_property_search/" "linux_desktop/" "website/" "base/" "zoneminder/" "pacemaker/" "munin/" "autossh/" "gsync/" "postgresql/" "corosync/" "pcore_gui/" "app_monitor/" "powershell-master/" "pcore/" "bind9/" "glusterfs/" "hosts/" "certs/" "heartbeat/" "rsnapshot/" "lvm/" "nagios/" "pg_radiant/" "win-chef-client/" "request-tracker/" "database/" "reports/" "xen/" "pangea_app/" "kiosk/" "ocfs2/" "logcheck/" "iscsi/" "pw_master/" "windows.old/" "windows-hostname/" "pangea_api/" "kvm/" "./" "pangeare_mobile/" "postfix/" "proxmox/" "underwriting/" "zfs/" "sudo/" "pangeare_ce/" "apt/" "windows-build/" "listing_site_integration/" "mysql/" "multipath/" "pangea_ruby/" "../" "users/" "fail2ban/" "powershell.old/" "bonding/" "README" "pangea_gems/" "zentyal/" "dnsmasq/" "amanda/" "chef-server/" "build/" "application/" "printers/" "drbd/" "dhcpd/" "duplicity/" "backup/" "pcore_api/" "bginfo/" "iptables/" "git_server/" "pangeare_website/" "quickbooks/" "testing/" "apticron/" "wdesktop/" "windows/" "logrotate/" "chef-client/" "kiosk_mailer/")
+
+ ("/home/noah/apps/chef-repo/" (21002 25566 915070 560000) "cloud-cfg/" "cookbooks/" ".gitignore" ".git/" "./" "certificates/" "Rakefile" "environments/" "../" "README" ".gitmodules" "site-cookbooks/" "tasks/" "config/" "roles/" "databags/")
+
+ ("/home/noah/apps/ci_server_test/" (21002 30435 123210 712000) "test.gitlog" "Test/" "step_functions.rb" "out.txt" "listener.rb" "#Gemfile#" "libpeerconnection.log" "gitserver_config/" "Rakefile.rb" "new_repo" "git_thread.rb" "err.txt" ".git/" "kiosk/" "./" "underwriting/" "Gemfile" "README.md" "Capfile" "../" "leasing/" "scripts/" "tellurium_driver.rb" "config/" "Gemfile.lock" "features/")
+
+ ("/home/noah/apps/vagrant/dev/WindowsVMs/" (21003 53374 522759 929000) ".vagrant/" "./" "Vagrantfile" "../")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/win-site/" (20985 11855 884902 693000) "attributes/" "./" "recipes/" "README.md" "../" "metadata.rb")
+
+ ("/home/noah/apps/chef-repo_old/site-cookbooks/win-site/attributes/" (20985 11855 884902 693000) "screen-saver.rb" "default.rb" "software.rb" "base.rb" "general.rb" "windows-updates.rb" "./" "../")
+
+ ("/home/noah/apps/vagrant/dev/" (21003 52888 528350 25000) "WindowsVMs/" "pangea_api/" "./" "../" "build/")
+
+ ("/home/noah/apps/vagrant/" (21003 52908 832450 706000) "dev/" "chef/" "boxes/" ".gitignore" ".git/" "./" "certificates/" ".chef" "../" "testing/" "examples/")
+
+ ("/home/noah/apps/vagrant/chef/" (21003 52961 696712 839000) "./" "../" ".#knife.rb")
+
+ ("/home/noah/apps/vagrant/dev/build/" (20985 27814 254180 401000) ".vagrant/" "./" "Vagrantfile" "../")
+
+ ("/home/noah/Pictures/" (20985 29275 889428 257000) "Screenshot from 2013-07-26 14:42:31.png" "awesome.html" "./" "Awesomeness_Wallpaper_by_d_k0d3.jpg" "Screenshot from 2013-07-26 16:50:30.png" "../" "Screenshot from 2013-07-26 16:52:31.png" "Screenshot from 2013-07-31 15:23:55.png")
 
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/recipes/" (20986 56082 21885 35000) "default.rb" "./" "../")
 
@@ -58,19 +121,11 @@
 
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/default/" (20986 56077 593863 75000) "ssh_keys.erb" "pangea_app.conf.erb" "authorized_keys.erb" "./" "../" "ssh-wrapper4git.sh")
 
- ("/home/noah/apps/ci_server_test/" (20988 6240 311675 602000) "test.gitlog" "Test/" "step_functions.rb" "out.txt" "listener.rb" "#Gemfile#" "libpeerconnection.log" "gitserver_config/" "Rakefile.rb" "new_repo" "git_thread.rb" "err.txt" ".git/" "kiosk/" "./" "underwriting/" "Gemfile" "README.md" "Capfile" "../" "leasing/" "scripts/" "tellurium_driver.rb" "config/" "Gemfile.lock" "features/")
-
- ("/home/noah/" (20988 5835 386572 267000) ".purple/" ".emacs.d/" ".bash_history" "Public/" ".thunderbird/" ".wine-browser/" ".goutputstream-JF3X0W" ".pki/" ".pulse/" ".apport-ignore.xml" ".dmrc" ".gnome2_private/" ".gtk-bookmarks" "mbox" ".bashrc" ".profile" ".pulse1/" ".Xmodmap" ".ecb-user-layouts.el" ".thumbnails/" ".emacs.before_ecb_2.40" ".goutputstream-VG3E0W" "Templates/" ".emacs.before_ecb_2.40__1" "libpeerconnection.log" ".bash_logout" "Videos/" ".xsession-errors" ".ICEauthority" ".gitconfig" ".bashrc~" "devices" ".gksu.lock" "Pictures/" ".gconf/" "#.emacs#" "Downloads/" ".vagrant.d/" "Desktop/" ".zprofile" ".VirtualBox/" "./" "apps/" ".pry_history" "utils/" ".face" ".gnome2/" ".cache/" ".local/" ".mission-control/" ".gvfs/" "Documents/" ".Skype/" ".ssh/" "../" ".ecb-tip-of-day.el" ".Xauthority" ".xsession-errors.old" ".bash_profile" "VirtualBox VMs/" ".goutputstream-7DD4ZW" ".zshrc" ".fontconfig/" "Music/" ".config/" ".goutputstream-M0CC0W" ".gem/" ".dbus/" ".pulse-cookie" ".rvm/" ".goutputstream-WC79ZW" ".goutputstream-RAOM0W" ".gstreamer-0.10/" ".compiz-1/" ".mozilla/" ".emacs")
-
- ("/home/noah/apps/chef-repo/" (20985 28287 244525 827000) "Cheffile.lock" "cloud-cfg/" "pangea-validator.pem" "Cheffile" "cookbooks/" ".gitignore" ".git/" "./" "certificates/" "Rakefile" ".chef/" "environments/" "../" "README" ".gitmodules" "site-cookbooks/" "tasks/" "config/" "roles/" "databags/" "chef-repo/")
-
  ("/home/noah/apps/" (20985 32639 613703 70000) "email_scrape/" "pcore/" "generic_rails/" "pangea_api/" "./" "testvagrant/" "../" "vagrant/" "ci_server_test/" "chef-repo/")
 
  ("/home/noah/Desktop/" (20986 61275 911081 33000) "./" "#google-chrome.desktop#" "google-chrome.desktop" "../")
 
  ("/home/fmaster/" (20972 11144 589047 803000) ".bash_history" ".bashrc" ".profile" ".bash_logout" "examples.desktop" "./" "../")
-
- ("/home/" (20972 10948 364074 776000) "noah/" "fmaster/" "./" "../")
 
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/" (20985 11855 820891 620000) "./" "default/" "../")
 
