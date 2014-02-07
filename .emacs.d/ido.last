@@ -2,15 +2,32 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/noah/apps/pcore_clone/features/" . "closing/")
+ ("/home/noah/apps/pcore_clone/" . "features/")
+ ("/home/noah/Classes/CS225/" . "mp1/")
+ ("/home/noah/apps/boardvitals/app/assets/" . "javascripts/")
+ ("/home/noah/apps/boardvitals/app/views/" . "static_pages/")
+ ("/home/noah/apps/boardvitals/config/" . "environments/")
+ ("/home/noah/apps/boardvitals/db/" . "migrate/")
+ ("/home/noah/apps/boardvitals/features/" . "steps/")
+ ("/home/noah/apps/boardvitals/" . "app/")
+ ("/home/noah/apps/tellurium_driver/" . "lib/")
+ ("/home/noah/apps/ci_server/public/cukes/" . "customer_view/")
+ ("/home/noah/apps/ci_server/public/" . "cukes/")
+ ("/home/noah/apps/boardvitals/app/" . "views/")
+ ("/home/noah/Classes/" . "CS225/")
+ ("/home/noah/Classes/ECE110/110-Arduino/" . "UltrasonicFollow/")
+ ("/home/noah/Classes/ECE110/" . "110-Arduino/")
+ ("/home/noah/apps/ci_server/" . "public/")
  ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/" . "default/")
  ("/home/noah/apps/chef-repo_old/" . "site-cookbooks/")
  ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/" . "templates/")
  ("/home/noah/apps/chef-repo_old/site-cookbooks/" . "windows-build/")
  ("/home/noah/apps/vagrant/dev/" . "WindowsVMs/")
  ("/home/noah/apps/vagrant/" . "dev/")
- ("/home/noah/apps/" . "ci_server_test/")
+ ("/home/noah/apps/" . "pcore_clone/")
  ("/home/" . "noah/")
- ("/home/noah/" . "Templates/")
+ ("/home/noah/" . "apps/")
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/" . "default/")
  ("/home/noah/apps/chef-repo/site-cookbooks/build/" . "attributes/")
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/" . "templates/")
@@ -20,6 +37,40 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/noah/apps/pcore_clone/features/closing/"
+ "/home/noah/apps/boardvitals/db/migrate/"
+ "/home/noah/Classes/CS225/mp2/"
+ "/home/noah/"
+ "/home/noah/Classes/CS225/mp1/"
+ "/home/noah/apps/ci_server/"
+ "/home/noah/apps/tabs/"
+ "/home/noah/apps/boardvitals/features/"
+ "/home/noah/apps/boardvitals/features/steps/"
+ "/home/noah/apps/boardvitals/app/views/static_pages/"
+ "/home/noah/apps/boardvitals/app/admin/"
+ "/home/noah/apps/leaderboard/"
+ "/home/noah/apps/ci_server/public/"
+ "/home/noah/apps/boardvitals/app/models/"
+ "/home/noah/apps/boardvitals/app/controllers/"
+ "/home/noah/apps/boardvitals/app/assets/javascripts/"
+ "/home/noah/apps/boardvitals/app/views/exams/"
+ "/home/noah/apps/tellurium_driver/lib/"
+ "/home/noah/apps/boardvitals/"
+ "/home/noah/apps/boardvitals/app/concerns/"
+ "/home/noah/apps/boardvitals/config/environments/"
+ "/home/noah/apps/boardvitals/db/"
+ "/home/noah/apps/boardvitals/script/"
+ "/home/noah/apps/boardvitals/config/"
+ "/home/noah/apps/ci_server/views/"
+ "/home/noah/apps/ci_server/public/cukes/customer_view/"
+ "/home/noah/apps/chef-repo/site-cookbooks/build/recipes/"
+ "/home/noah/Classes/CS173/"
+ "/home/noah/apps/tellurium_driver/"
+ "/home/noah/Classes/ECE110/110-Arduino/UltrasonicFollow/"
+ "/home/noah/Classes/ECE110/110-Arduino/AvoidWalls/"
+ "/home/noah/Desktop/Old Linux Stuff/workspace/Challenge4-Photoscoop/"
+ "/home/noah/bin/"
+ "/home/noah/apps/ci_server/scripts/"
  "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/default/"
  "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/recipes/"
  "/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/"
@@ -29,7 +80,6 @@
  "/home/noah/apps/chef-repo_old/site-cookbooks/"
  "/home/noah/apps/vagrant/dev/WindowsVMs/"
  "/home/noah/apps/vagrant/"
- "/home/noah/"
  "/home/noah/apps/ci_server_test/"
  "/home/noah/apps/chef-repo/"
  "/home/noah/Desktop/"
@@ -37,30 +87,148 @@
  "/home/noah/apps/chef-repo/site-cookbooks/build/attributes/"
  "/home/noah/apps/chef-repo/site-cookbooks/pangea_app/attributes/"
  "/home/noah/apps/chef-repo/site-cookbooks/pangea_app/definitions/"
- "/home/noah/apps/chef-repo/site-cookbooks/build/recipes/"
- "/home/noah/apps/chef-repo/site-cookbooks/pangea_app/recipes/"
- "/home/noah/apps/ci_server_test/underwriting/features/"
- "/home/noah/apps/ci_server_test/gitserver_config/"
- "/home/noah/apps/ci_server_test/scripts/"
- "/home/noah/apps/ci_server_test/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "hubscript.erb"
- "default.rb"
- "scripts.erb"
- "software.rb"
- "general.rb"
- "base.rb"
- "buildvm.rb"
- "windows-build"
- "Vagrantfile"
+ "closing_steps.rb"
+ "20130724222532_add_explanation_column_to_question.rb"
+ "20130728193515_add_question_bank_id_to_exams.rb"
+ "20130724205032_create_answers.rb"
+ "20130724204852_create_organizations.rb"
+ "Makefile"
+ "image.h"
  ".emacs"
+ "rgbapixel.h"
+ "rgbapixel.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/noah/apps/pcore_clone/features/closing/" (21234 32780 589404 647000) "../" "email.txt" "browser_chrome.yml" "closing_steps.rb" "version.txt" "closing.feature" "./" "browser_full.yml")
+
+ ("/home/noah/apps/pcore_clone/features/" (21189 56388 318465 256000) "closing/" "../" "./" "customer_view/")
+
+ ("/home/noah/apps/pcore_clone/" (21234 44647 550714 849000) "poo.text" ".git/" "features/" "../" "test/" "browser_chrome.yml" "config/" "./" "browser_full.yml")
+
+ ("/home/noah/apps/" (21234 53276 655244 717000) "chef-notes.txt" "pangea_api/" "leaderboard/" "NetExtender.Linux.7.0.750.x86_64.tgz" "boardvitals/" "tellurium_driver/" "../" "pcore_clone/" "netExtenderClient/" "stubhub/" "vagrant_repo/" "underwriting/" "vagrant/" "ci_server/" "tabs/" "todos/" "./" "generic_rails/" "NetExtender.Linux.7.0.741.x86_64.tgz" "chef-repo/")
+
+ ("/home/noah/apps/stubhub/" (21234 53331 663242 264000) ".#adjust_prices.rb" "../" "Gemfile.lock" "Gemfile" "./")
+
+ ("/home/noah/Classes/CS225/mp2/" (21234 39052 354912 985000) "in_01.png" ".svn/" "partners.txt" "rgbapixel.cpp" "soln_brightened.png" "nul" "image.o" "image.cpp" "rgbapixel.h" "soln_flipped.png" "testimage.cpp" "brightened.png" "soln_scene8.png" "../" "in_02.png" "soln_scene3.png" "flipped.png" "soln_scene6.png" "png.h" "soln_scene2.png" "soln_scene4.png" "testscene.cpp" "soln_scene7.png" "image.h" "soln_inverted.png" "soln_scene.png" "mp1" "Makefile" "rgbapixel.o" "mp2_extra_credit.txt" "testimage.o" "testimage" "png.cpp" "inverted.png" "./" "png.o" "in_03.png" "soln_scene5.png")
+
+ ("/home/noah/apps/boardvitals/db/migrate/" (21230 45312 810721 394000) "20131209062420_set_answer_choice_default.rb" "20130724222822_add_reference_column_to_question.rb" "20130921011252_change_question_answer_columns_to_text.rb" "20130728154949_remove_exam_id_from_subscriptions.rb" "20130724222532_add_explanation_column_to_question.rb" "20130724223103_add_default_incorrect_to_answers.rb" "20130725175539_add_devise_to_users.rb" "20130802000403_add_subject_id_to_questions.rb" "20130911030556_move_admin_notes_to_comments.rb" "20130731055746_drop_exam_subjects_table.rb" "20130731060007_remove_subject_id_column_from_questions.rb" "20131128153539_add_plan_id_to_question_banks.rb" "20130728163159_rename_exam_answers_table.rb" "20130827175858_change_price_to_plan_subscriptions.rb" "20140109035652_add_video_html_to_questions.rb" "20130822220625_add_trial_columns_to_exams.rb" "20131124205616_add_flag_to_questions.rb" "20130728155826_add_user_id_to_exams.rb" "20140104204156_add_average_correct_percentage_to_questions.rb" "20131103003855_create_delayed_jobs.rb" "20130802001113_add_name_column_to_subjects.rb" "20131108115310_create_percentile_in_question_banks.rb" "20140125194509_add_cached_active_value_to_subscriptions.rb" "20130828013124_add_stripe_columns_to_subscriptions.rb" "20130724204852_create_organizations.rb" "20130728160223_exam_answers_table.rb" "20130829203240_add_trial_column_to_questions.rb" "20130728193515_add_question_bank_id_to_exams.rb" "20130725192211_add_imageable_columns_to_image.rb" "20130829111333_remove_plan_and_expires_on_subscriptions.rb" "20130828012755_drop_stripe_columns_from_users.rb" "20130825222814_add_card_type_and_last4_to_users.rb" "20131103001754_add_average_correct_percentage_to_percentile_in_subject.rb" "20130821164626_add_qid_to_questions.rb" "20130726164407_add_admin_to_users.rb" "20140202205632_add_trial_question_bank_id_to_users.rb" "20130724205032_create_answers.rb" "20131127134752_create_referrals.rb" "20130829063319_remove_active_column_from_subscriptions.rb" "20140127134753_add_cached_coupon_string_to_subscriptions.rb" "20130801191045_change_columns_in_questions.rb" "20130728201237_add_status_to_exams.rb" "20130727195108_remove_explanation_from_question.rb" "20130802000425_create_exam_subjects_table.rb" "20140201191757_create_email_domain_access_items.rb" "20131107133634_add_average_correct_percentage_to_question_bank.rb" "20130724204942_create_questions.rb" "20131102230314_add_average_correct_percentage_to_subject.rb" "20130801182342_change_column_in_explanations.rb" "20130729211921_add_customer_id_to_users.rb" "20140123133015_add_last_active_check_date_to_subscriptions.rb" "20130728154849_create_question_banks.rb" "20131118122617_add_deactivated_to_questions.rb" "20140104183050_refactor_percentiles.rb" "20130730203308_change_column_in_subscriptions.rb" "20130731063656_add_question_bank_id_to_questions.rb" "20130724204908_create_users.rb" "20131102232252_create_percentile_in_subjects.rb" "20140126185148_add_cancelled_at_period_end_to_subscriptions.rb" "20131118122956_add_deactivated_to_explanations.rb" "20130725195536_create_subscriptions.rb" "20130801212616_change_correct_to_type_answer.rb" "20130727194932_create_explanations.rb" "20130731060157_acts_as_taggable_on_migration.rb" "20130727173131_add_caption_column_to_images.rb" "20131008183125_add_question_bank_id_to_images.rb" "20130728160555_exam_subjects_table.rb" "20130725191436_create_images.rb" "20130814212224_create_responses.rb" "20131102010917_add_average_rating_to_question.rb" "20130728155531_remove_exam_id_from_questions.rb" "20130826232816_create_ratings.rb" "20131102235100_add_difference_in_average_correct_percentage_and_place_and_total_places_to_percentile_in_subject.rb" "20130911030550_devise_create_admin_users.rb" "20130802000219_create_subjects.rb" "20140122142238_add_sti_to_subscriptions.rb" "20140118194322_add_manual_expiry_date_to_subscriptions.rb" "20130724204929_create_exams.rb" "20130911030555_create_admin_notes.rb" "../" "./")
+
+ ("/home/noah/" (21229 39640 913419 936000) "2013-12-30__chrome__closing__closing.feature.html" ".zshrc" ".dbshell" "dump.rdb" ".adobe/" ".Xauthority" ".bashrc" ".viminfo" ".freerdp/" ".gnome2/" ".java/" ".subversion/" ".wicd/" ".vagrant.d/" ".local/" "Documents/" ".ssh/" ".gimp-2.8/" ".arduino/" ".emacs" ".dmrc" ".sane/" ".pagekite.rc" ".heroku/" ".gconf/" ".gstreamer-0.10/" ".Mathematica/" ".dbus/" "Downloads/" ".thunderbird/" ".xscreensaver" "apps/" ".recently-used" "../" ".purple/" ".psql_history" ".irb-history" "sketchbook/" "powerarrow/" ".netExtenderCerts/" "Videos/" ".pry_history" "Pictures/" "Classes/" ".rvm/" "delightful/" ".config/" ".gtk-bookmarks" ".VirtualBox/" ".profile" ".pgpass" ".ICEauthority" ".m2/" ".gem/" ".xchat2/" "key" ".forward" "VirtualBox VMs/" "bin/" ".gitconfig" ".android/" ".synergy.conf" ".vim/" ".zlogin" "Public/" ".gnupg/" ".thumbnails/" ".tmux.conf" ".xsession-errors" ".ngrok" ".bash_logout" ".xmonad/" "hdmi" ".bash_profile" "Music/" ".netrc" ".hplip/" ".Xdefaults" ".ecb-user-layouts.el" ".cache/" "Templates/" "tabs.conf" ".emacs.d/" ".dmenu_cache" ".wine-browser/" ".pki/" ".netExtender.log" ".ecb-tip-of-day.el" ".macromedia/" ".matlab/" ".Skype/" ".meteor/" "./" ".gksu.lock" ".xsession-errors.old" ".netextender" ".mongorc.js" "Desktop/" ".bash_history" "resolv.conf" ".mozilla/")
+
+ ("/home/noah/Classes/CS225/mp1/" (21229 39574 217422 909000) "makefiletutorial/" "in_01.png" ".svn/" "partners.txt" "rgbapixel.cpp" "nul" "rgbapixel.h" "out_03.png" "../" "in_02.png" "png.h" "in.png" "out.png" "mp1" "Makefile" "rgbapixel.o" "mp1_final.txt" "png.cpp" "out_01.png" "output.png" "./" "main.o" "main.cpp" "out_02.png" "png.o" ".#main.cpp" "in_03.png")
+
+ ("/home/noah/Classes/" (21220 9210 96431 367000) "MATH415/" "../" "ECE198JL/" "ECE110/" "CS173/" "./" "CS225/")
+
+ ("/home/noah/Classes/CS225/" (21229 35151 529620 91000) "../" "hw0/" "lab_intro/" "mp2/" "mp1/" "lab_debug/" "./" "monad/")
+
+ ("/home/noah/.emacs.d/" (21229 28601 762929 372000) "session.2ed1d0e75-6d03-4dc3-a112-88cd5617e44f" "yaml/" "whitespace/" "sass/" "cedet-1.0pre6/" "ruby-mode/" "ac-comphist.dat" "../" "session.10c2b42d52a1e64618137158486516811300000098910061" "session.102aa9b23d8e0773bd137219463447168500000019410104" "session.102aa9b23d8e0773bd13721698523831300000019410066" "ecb/" ".twitter-auth" ".DS_Store" "auto-save-list/" "session.10c2b42d52a1e64618137159356792242100000098910067" "php/" "zencoding-mode.el" "haml/" "url/" "yasnippet-bundle.el" "rails/" "elpa/" ".org-id-locations" "session.2738440c0-7c0a-4d12-84c6-ace1dd96470b" "haml-mode.el" "session.216cb9904-cd68-42f9-9ca5-df7331653a75" "mode-compile/" "session.27a015c1e-546e-40fb-a4ef-f316491a5741" ".erc-auth" ".mc-lists.el" "inf-ruby.el" "session.10ba59a8938e10788b1371754674749500000019960043" "./" "auto-install/" "php-mode.el" "ido.last" "twitter/")
+
+ ("/home/noah/.emacs.d/elpa/" (21229 35490 997604 957000) "auto-complete-readme.txt" "flycheck-20130606.1406/" "coffee-mode-0.4.1.1/" "sr-speedbar-readme.txt" "rainbow-mode-readme.txt" "xclip-1.0/" "auto-complete-c-headers-readme.txt" "auto-complete-c-headers-20131215.506/" "nlinum-readme.txt" "../" "js2-mode-20090814/" "zencoding-mode-20111231.345/" "minimap-1.0/" "popup-20130324.1305/" "evil-nerd-commenter-20130601.114/" "dash-20130602.1546/" "register-list-readme.txt" "sr-speedbar-20130309.1959/" "popup-readme.txt" "find-file-in-project-20120716.1655/" "ecb-readme.txt" "s-20130605.2023/" "company-readme.txt" "minimap-readme.txt" "base16-theme-20130216.947/" "multiple-cursors-20130608.1031/" "coffee-mode-readme.txt" "multi-term-20130108.2305/" "color-theme-sanityinc-tomorrow-20130504.1540/" "yasnippet-20130505.2115/" "zenburn-theme-20130529.207/" "ecb-20130406.1406/" "auto-complete-20130503.2013/" "windsize-20110728.1636/" "xclip-readme.txt" "archives/" "color-theme-20080305.834/" "./" "evil-nerd-commenter-readme.txt" "find-file-in-project-readme.txt" "multiple-cursors-readme.txt" "js2-mode-readme.txt" "zenburn-theme-readme.txt" "windsize-readme.txt")
+
+ ("/home/noah/.emacs.d/elpa/auto-complete-c-headers-20131215.506/" (21229 35490 921604 960000) "auto-complete-c-headers.el" "../" "auto-complete-c-headers.elc" "auto-complete-c-headers-pkg.elc" "auto-complete-c-headers-pkg.el" "auto-complete-c-headers-autoloads.el" "./")
+
+ ("/home/noah/apps/ci_server/" (21228 7807 623989 594000) "payload_queue.rb" "underwriting_bry/" "step_functions.rb" "out.txt" "Capfile" ".git/" "views/" "../" "err.txt" "Gemfile.lock" "kiosk/" "showing/" ".#listener.rb" "README.md" "Gemfile" "pcore/" "Rakefile.rb" "public/" "listener.rb" "leaderboard.html" "config/" "./" "git_thread.rb" "filtering/")
+
+ ("/home/noah/apps/tabs/" (21228 1680 973551 289000) "latest.json" "backup/" "tabs.html" "this/" ".git/" "../" "tabs.css" "ngrok" "public/" "dontuse" "typeahead.js.zip" ".meteor/" "tabs.js" "dump/" "./")
+
+ ("/home/noah/apps/boardvitals/features/steps/" (21225 41270 264365 665000) "exam.rb" "../" "subscriptions.rb" "contact_us.rb" "trial_test.rb" "referral.rb" "home_screen.rb" "misc.rb" "about_us.rb" "sugguested_link.rb" "admin.rb" "searchbar.rb" "categories.rb" "standing.rb" "user_signups.rb" "./")
+
+ ("/home/noah/apps/boardvitals/features/" (21225 40667 208330 669000) "trial_test.feature" "searchbar.feature" "../" "referral.feature" "about_us.feature" "contact_us.feature" "basicidea.txt" "boardvitals_steps.rb" "suggested_link.feature" "steps/" "standing.feature" "categories.feature" "subscriptions.feature" "admin.feature" "./" "home_screen.feature" "exam.feature" "user_signups.feature")
+
+ ("/home/noah/apps/boardvitals/app/views/static_pages/" (21221 24482 524050 338000) "obgyn.html.erb" "family_medicine.html.erb" "radiology.html.erb" "cardiology.html.erb" "_extra.html.erb" "pediatric.html.erb" "_offer.html.erb" "about.html.erb" "../" "_trial.html.erb" "internal-medicine.html.erb" "referral.html.erb" "emergency_medicine.html.erb" "child_psychiatry.html.erb" "surgery.html.erb" "create_feedback.js.erb" "dermatology.html.erb" "gastrointestinal.html.erb" "psychiatry.html.erb" "_refer_callout.html.erb" "gastroenterology.html.erb" "_sign_up_now.html.erb" "help.html.erb" "contact.html.erb" "neurology.html.erb" "ent.html.erb" "pathology.html.erb" "echocardiography.html.erb" "index.html.erb" "otolaryngology.html.erb" "./" "dash_referral.html.erb" "scholarship.html.erb" "testimonial.html.erb" "_prices.html.erb")
+
+ ("/home/noah/apps/boardvitals/" (21221 23851 904050 364000) "spec/" "cucumber_failures.log" "doc/" ".rspec" ".hidden/" "db/" ".git/" "log/" "features/" "../" "app/" "Gemfile.lock" "Rakefile" "ssl-cert/" "README.md" "Gemfile" "lib/" "tmp/" ".gitignore" "public/" "circle.yml" "cucumber_failures.txt" "Guardfile" "questions.txt" "latest.dump" "vendor/" "config.ru" ".rails_footnotes" "script/" "config/" "cucumber.yml" "./")
+
+ ("/home/noah/apps/boardvitals/app/admin/" (21210 60378 740392 941000) "subjects.rb" "question_banks.rb" "users.rb" "../" "questions.rb" "dashboard.rb" "./")
+
+ ("/home/noah/apps/leaderboard/" (21203 32501 758372 830000) "../" "leaderboard.css" "leaderboard.js" "leaderboard.html" ".meteor/" "./")
+
+ ("/home/noah/apps/boardvitals/app/assets/javascripts/" (21202 62882 284695 307000) "user_exams.js.coffee" "subscriptions.js.coffee" "../" "question_banks.js.coffee" "errors.js.coffee" "dashboard/" "dashboard.js" "active_admin.js.coffee" "questions.js.coffee" "./" "application.js" "exams.js.coffee")
+
+ ("/home/noah/apps/boardvitals/app/assets/" (21196 18662 671993 908000) "javascripts/" "fonts/" "../" "stylesheets/" "./" "images/")
+
+ ("/home/noah/apps/boardvitals/app/views/exams/" (21199 7549 895212 373000) "derp.html.erb" "_explanation.html.erb" "new.html.erb" "_review_exam.html.erb" "_legend.html.erb" "_question_card.html.erb" "_feedback.html.erb" "_images.html.erb" "../" "_answer_card.html.erb" "complete_trial.html.erb" "take.html.erb" "update_trial.js.erb" "review.html.erb" "_card.html.erb" "_exam_header.html.erb" "update_test.js.erb" "_exam.html.erb" "trial.html.erb" "index.html.erb" "./" "mode.js.erb")
+
+ ("/home/noah/apps/boardvitals/app/views/" (21196 18662 695993 907000) "devise/" "message_mailer/" "../" "question_banks/" "exams/" "static_pages/" "layouts/" "errors/" "subscriptions/" "./" "questions/")
+
+ ("/home/noah/apps/boardvitals/app/models/" (21202 62691 688684 247000) "admin_user.rb" ".gitkeep" "organization.rb" "rating.rb" "answer.rb" "exam.rb" "../" "referral.rb" "image.rb" "scholarship_message.rb" "question.rb" "correct_answer.rb" "testimonial_message.rb" "referral_message.rb" "question_bank.rb" "response.rb" "subject.rb" "explanation.rb" "subscription.rb" "feedback_message.rb" "contact_message.rb" "./" "user.rb" "percentile_in_x.rb")
+
+ ("/home/noah/apps/boardvitals/app/" (21196 18662 683993 907000) "models/" "views/" "../" "helpers/" "concerns/" "uploaders/" "admin/" "mailers/" "controllers/" "./" "assets/")
+
+ ("/home/noah/apps/boardvitals/app/controllers/" (21199 9749 59339 990000) "static_pages_controller.rb" "exams_controller.rb" "../" "errors_controller.rb" "registrations_controller.rb" "questions_controller.rb" "subscriptions_controller.rb" "question_banks_controller.rb" "application_controller.rb" "users_controller.rb" "./")
+
+ ("/home/noah/apps/boardvitals/script/" (21195 23342 4601 8000) "cleanup.rb" "../" "delayed_job" "rails" "print_tests.rb" "./")
+
+ ("/home/noah/apps/boardvitals/app/concerns/" (21195 17151 747376 16000) "user_statistics.rb" "percentage_stats_object.rb" "../" "./")
+
+ ("/home/noah/apps/boardvitals/config/environments/" (21195 17754 823349 129000) "production.rb" "../" "development.rb" "test.rb" "parallel.rb" "./")
+
+ ("/home/noah/apps/boardvitals/db/" (21195 17690 87352 15000) "../" "schema.rb" "./" "seeds.rb" "migrate/")
+
+ ("/home/noah/apps/boardvitals/config/" (21193 56377 677890 274000) "environments/" "netrc" "database.ci.yml" "initializers/" "../" "locales/" "database.yml" "application.rb" ".#routes.rb" "routes.rb" "boot.rb" "environment.rb" "./")
+
+ ("/home/noah/Desktop/" (21184 26530 265556 258000) "Old Linux Stuff/" "../" "12417" "./" "Phone Stuff Backup/")
+
+ ("/home/noah/apps/tellurium_driver/" (21184 46458 617841 436000) "tellurium_driver-1.1.9.gem" "tellurium_driver-1.1.14.gem" ".git/" "tellurium_driver-1.1.10.gem" "../" "Gemfile.lock" "tellurium_driver.gemspec" "README.md" "Gemfile" "lib/" "tellurium_driver-1.1.8.gem" "tellurium_driver-1.1.11.gem" "./" "tellurium_driver-1.1.12.gem")
+
+ ("/home/noah/apps/ci_server/views/" (21185 60370 853550 948000) "../" "main.html.erb" "./")
+
+ ("/home/noah/apps/tellurium_driver/lib/" (21184 46388 793837 384000) "../" "tellurium_driver.rb" "./")
+
+ ("/home/noah/apps/ci_server/public/" (21186 12825 114172 999000) "cuke.html" "../" "spin.js" "cukes/" "ci.css" "ciserver.js" "ci.js" "customer_view.html" "./")
+
+ ("/home/noah/apps/ci_server/pcore/" (21163 45281 864210 230000) "features/" "../" "browser_chrome.yml" "./" "browser_full.yml")
+
+ ("/home/noah/apps/ci_server/pcore/features/" (21163 45241 500207 888000) "closing/" "../" "./" "customer_view/")
+
+ ("/home/noah/apps/ci_server/pcore/features/closing/" (21163 45399 344217 48000) "../" "email.txt" "browser_chrome.yml" "closing_steps.rb" "version.txt" "closing.feature" "./" "browser_full.yml")
+
+ ("/home/noah/Classes/CS173/" (21159 54045 874695 534000) "1.txt" "Homework10.txt" "GraphFor173.pdf" "GraphFor173.fodg" "GraphFor173.png" "Homework9.txt" ".#Homework8" "hw10_a.odg" "../" "hw10_b.odg" "hw10_c.png" "2.txt" "hw10_b.jpg" "RecursiveTree.png" "testruby.rb" "hw10_c.odg" "hw10_d.jpg" "RecursiveTree.odg" "USETHIS.png" ".#Homework10.txt" "hw10_c.jpg" "GraphFor173.odg" "./" "Homework8" "CSLASKJFALSKJF.png" "hw10_c." "homework7_1.txt")
+
+ ("/home/noah/apps/ci_server/public/cukes/customer_view/" (21163 36258 851518 94000) "../" "1/" "3/" "./" "2/")
+
+ ("/home/noah/apps/ci_server/public/cukes/" (21160 54437 125959 178000) "../" "pcore/" "./" "customer_view/")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/build/recipes/" (21155 52979 58858 280000) "vms.rb" "../" "default.rb" "./")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/build/attributes/" (21122 25955 66886 593000) "../" "default.rb" "./")
+
+ ("/home/noah/bin/" (21138 60969 710896 51000) "../" "#backlight_2.sh#" "clickpad.sh" "backlightdown.sh" "backlightup.sh" "backlight_2.sh~" "./")
+
+ ("/home/noah/Classes/ECE110/110-Arduino/AvoidWalls/" (21125 14590 490832 520000) "../" "AvoidWalls.ino" "./")
+
+ ("/home/noah/Classes/ECE110/110-Arduino/UltrasonicFollow/" (21152 61444 528660 916000) "makefile" "UltrasonicFollow.ino" "../" "./")
+
+ ("/home/noah/Classes/ECE110/110-Arduino/" (21116 3430 156731 328000) ".git/" "../" "UltrasonicFollow/" "AvoidWalls/" "./")
+
+ ("/home/noah/Classes/ECE110/" (21111 18145 752681 134000) "license.txt" "contents.m" "110-Arduino/" "arduino.m" "read_A0_Sensor/" "SIK/" "simulink/" "FollowPhotoResitor/" "../" "HCSR04Ultrasonic-1.1.2.tar.gz" "pde/" "readme.txt" "matlab_Circuit_IV_Curve.m" "Arduino-Makefile/" "examples/" "arduinomakefile/" "install_arduino.m" "UltrasonicThingy/" "Ultrasonic.h" "./" "scopeCapture.m")
+
+ ("/home/noah/Classes/ECE110/read_A0_Sensor/" (21097 34318 54926 709000) "../" "read_A0_Sensor.ino" "./")
+
+ ("/home/noah/Desktop/Old Linux Stuff/workspace/Challenge4-Photoscoop/" (21074 62146 753725 893000) "CheckInputOutput.class" "ExampleShiftRightitBitwiseOrAnd.java" "TextIO.java" "ExampleBits.class" "Stenography.class" "ImageUtilities.java" ".svn/" "RGBUtilitiesTest.java" "PixelEffectsTest.java" "ExampleHexademical.java" "Photoscoop$7.class" "TextIO.class" "ExampleBits.java" "Example2DArrays.class" "../" "PixelEffects.java" "Photoscoop$9.class" "Photoscoop.class" "PlayListUtil.java" "Photoscoop$8.class" "PixelEffects.class" "RGBUtilities.class" "Example2DArrays.java" "CheckInputOutput.java" "testimages/" "PixelEffectsTest.class" "EffectsTest.class" "RGBUtilitiesTest.class" "PlayListApplication.java" "Photoscoop$4.class" "Stenography.java" "PlayListUtilTest.class" ".classpath" ".project" "junit.jar" "ExampleHexademical.class" "RGBUtilities.java" "Photoscoop$3.class" "ExampleShiftRightitBitwiseOrAnd.class" "PlayListApplication.class" "Photoscoop.java" "Effects.class" "Photoscoop$6.class" "Photoscoop$2.class" "Effects.java" "Photoscoop$5.class" "AutomaticScoreCheck.java" "./" "ImageUtilities.class" "PlayListUtilTest.java" "PlayListUtil.class" "Photoscoop$1.class" "AutomaticScoreCheck.class" "R-E-A-D-M-E--F-I-R-S-T.txt" "EffectsTest.java" "ImageUtilities$1.class")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/recipes/" (21068 38815 179557 373000) "../" "default.rb" "./")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/definitions/" (21068 38815 179557 373000) "../" "pangea_app.rb" "./")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/attributes/" (21068 38815 179557 373000) "../" "default.rb" "./")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/default/" (21068 38815 179557 373000) "ssh_keys.erb" "../" "authorized_keys.erb" "pangea_app.conf.erb" "./" "ssh-wrapper4git.sh.erb")
+
+ ("/home/noah/apps/ci_server/scripts/" (21070 4949 997273 119000) "run_tests.sh" "kill_all_machines.sh" "power-off_all_machines.sh" "../" "spinup" "view_machine" "save-state_all_machines.sh" "./" "start_all_machines.sh" "logs/" "start_listener" "register_vms" "spindown")
+
+ ("/home/noah/apps/chef-repo/" (21069 63353 638481 347000) "cloud-cfg/" "roles/" "environments/" "gitserver_config/" ".gitmodules" ".git/" ".chef/" "../" "Rakefile" "README.md" "Cheffile" ".gitignore" "tasks/" "certificates/" "bootstrap.sh" "databags/" "config/" "./" "Cheffile.lock" "site-cookbooks/" "cookbooks/")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/" (21068 38815 263557 378000) "rsnapshot/" "README" "windows-hostname/" "bonding/" "pangea_api/" "site/" "git_server/" "application/" "pangea_app/" "ocfs2/" "apticron/" "heartbeat/" "wdesktop/" "quickbooks/" "pcore_api/" "backup/" "printers/" "apt/" "glusterfs/" "apache2/" "openvpn/" "corosync/" "xen/" "rvm/" "users/" "zoneminder/" "../" "pg_radiant/" "logcheck/" "kiosk/" "windows/" "website/" "amanda/" "pw_master/" "asterisk/" "drbd/" "win-chef-client/" "build/" "zfs/" "listing_site_integration/" "fail2ban/" "dnsmasq/" "hosts/" "munin/" "chef-server/" "autossh/" "bind9/" "windows-build/" "powershell-master/" "pcore_gui/" "bginfo/" "kvm/" "pcore/" "duplicity/" "pangeare_mobile/" "chef-client/" "pacemaker/" "pangeare_ce/" "workflow/" "zentyal/" "database/" "gsync/" "dhcpd/" "request-tracker/" "logrotate/" "sudo/" "freepbx/" "underwriting/" "iptables/" "app_monitor/" "windows.old/" "multipath/" "postfix/" "showings/" "nagios/" "proxmox/" "mysql/" "iprenew/" "./" "chef/" "pangeare_property_search/" "lvm/" "pangea_gems/" "testing/" "base/" "kiosk_mailer/" "pangea_ruby/" "nut/" "reports/" "pangeare_website/" "iscsi/" "win-site/" "powershell.old/" "etckeeper/" "certs/" "postgresql/" "linux_desktop/")
+
+ ("/home/noah/apps/chef-repo/site-cookbooks/build/" (21068 38815 155557 371000) "CHANGELOG.md" "templates/" "recipes/" "../" "metadata.rb" "README.md" "attributes/" "./")
+
  ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/recipes/" (21009 8268 308115 183000) "default.rb" "software.rb" "./" "../")
 
  ("/home/noah/apps/chef-repo_old/site-cookbooks/windows-build/templates/default/" (21006 44621 103304 542000) "scripts.erb" "./" "hubscript.erb" "../")
@@ -72,8 +240,6 @@
  ("/home/" (21004 2303 985351 338000) "noah/" "fmaster/" "./" "../" "nprince/")
 
  ("/home/noah/Templates/" (20969 22384 817583 277000) "./" "../")
-
- ("/home/noah/" (21006 35064 371915 270000) ".purple/" ".gphoto/" ".emacs.d/" ".bash_history" "Public/" ".thunderbird/" ".wine-browser/" ".goutputstream-JF3X0W" ".pki/" ".pulse/" ".apport-ignore.xml" ".dmrc" ".gnome2_private/" ".gtk-bookmarks" "mbox" ".netExtenderCerts/" ".bashrc" ".profile" ".pulse1/" ".Xmodmap" ".ecb-user-layouts.el" ".thumbnails/" ".emacs.before_ecb_2.40" ".goutputstream-VG3E0W" "Templates/" ".emacs.before_ecb_2.40__1" ".netextender" "libpeerconnection.log" ".bash_logout" "Videos/" ".xsession-errors" ".ICEauthority" ".gitconfig" ".bashrc~" "devices" ".gksu.lock" "Pictures/" ".gconf/" "#.emacs#" "Downloads/" ".vagrant.d/" "hs_err_pid17018.log" "Desktop/" ".winff/" ".zprofile" ".VirtualBox/" "./" ".java/" "apps/" ".shotwell/" ".pry_history" ".avidemux/" "utils/" ".face" ".gnome2/" ".cache/" ".local/" ".mission-control/" ".gvfs/" "Documents/" ".Skype/" ".ssh/" "../" ".ecb-tip-of-day.el" ".Xauthority" ".xsession-errors.old" ".bash_profile" "VirtualBox VMs/" ".goutputstream-7DD4ZW" ".zshrc" ".fontconfig/" "Music/" ".config/" ".goutputstream-M0CC0W" ".gem/" ".dbus/" ".pulse-cookie" ".rvm/" ".netExtender.log" ".goutputstream-WC79ZW" "emacs_stuff/" ".goutputstream-RAOM0W" ".gstreamer-0.10/" ".compiz-1/" ".mozilla/" ".emacs")
 
  ("/home/noah/apps/chef-repo_old/site-cookbooks/windows/recipes/" (21006 27395 509887 426000) "default.rb" "./" "reboot_handler.rb" "../")
 
@@ -93,8 +259,6 @@
 
  ("/home/noah/apps/chef-repo_old/site-cookbooks/" (21005 452 589546 365000) "nut/" "freepbx/" "win-site/" "apache2/" "iprenew/" "showings/" "asterisk/" "site/" "openvpn/" "workflow/" "chef/" "etckeeper/" "pangeare_property_search/" "linux_desktop/" "website/" "base/" "zoneminder/" "pacemaker/" "munin/" "autossh/" "gsync/" "postgresql/" "corosync/" "pcore_gui/" "app_monitor/" "powershell-master/" "pcore/" "bind9/" "glusterfs/" "hosts/" "certs/" "heartbeat/" "rsnapshot/" "lvm/" "nagios/" "pg_radiant/" "win-chef-client/" "request-tracker/" "database/" "reports/" "xen/" "pangea_app/" "kiosk/" "ocfs2/" "logcheck/" "iscsi/" "pw_master/" "windows.old/" "windows-hostname/" "pangea_api/" "kvm/" "./" "pangeare_mobile/" "postfix/" "proxmox/" "underwriting/" "zfs/" "sudo/" "pangeare_ce/" "apt/" "windows-build/" "listing_site_integration/" "mysql/" "multipath/" "pangea_ruby/" "../" "users/" "fail2ban/" "powershell.old/" "bonding/" "README" "pangea_gems/" "zentyal/" "dnsmasq/" "amanda/" "chef-server/" "build/" "application/" "printers/" "drbd/" "dhcpd/" "duplicity/" "backup/" "pcore_api/" "bginfo/" "iptables/" "git_server/" "pangeare_website/" "quickbooks/" "testing/" "apticron/" "wdesktop/" "windows/" "logrotate/" "chef-client/" "kiosk_mailer/")
 
- ("/home/noah/apps/chef-repo/" (21002 25566 915070 560000) "cloud-cfg/" "cookbooks/" ".gitignore" ".git/" "./" "certificates/" "Rakefile" "environments/" "../" "README" ".gitmodules" "site-cookbooks/" "tasks/" "config/" "roles/" "databags/")
-
  ("/home/noah/apps/ci_server_test/" (21002 30435 123210 712000) "test.gitlog" "Test/" "step_functions.rb" "out.txt" "listener.rb" "#Gemfile#" "libpeerconnection.log" "gitserver_config/" "Rakefile.rb" "new_repo" "git_thread.rb" "err.txt" ".git/" "kiosk/" "./" "underwriting/" "Gemfile" "README.md" "Capfile" "../" "leasing/" "scripts/" "tellurium_driver.rb" "config/" "Gemfile.lock" "features/")
 
  ("/home/noah/apps/vagrant/dev/WindowsVMs/" (21003 53374 522759 929000) ".vagrant/" "./" "Vagrantfile" "../")
@@ -113,35 +277,15 @@
 
  ("/home/noah/Pictures/" (20985 29275 889428 257000) "Screenshot from 2013-07-26 14:42:31.png" "awesome.html" "./" "Awesomeness_Wallpaper_by_d_k0d3.jpg" "Screenshot from 2013-07-26 16:50:30.png" "../" "Screenshot from 2013-07-26 16:52:31.png" "Screenshot from 2013-07-31 15:23:55.png")
 
- ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/recipes/" (20986 56082 21885 35000) "default.rb" "./" "../")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/build/recipes/" (20986 47871 785172 670000) "default.rb" "./" "../")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/definitions/" (20986 53864 506888 965000) "pangea_app.rb" "./" "../")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/default/" (20986 56077 593863 75000) "ssh_keys.erb" "pangea_app.conf.erb" "authorized_keys.erb" "./" "../" "ssh-wrapper4git.sh")
-
- ("/home/noah/apps/" (20985 32639 613703 70000) "email_scrape/" "pcore/" "generic_rails/" "pangea_api/" "./" "testvagrant/" "../" "vagrant/" "ci_server_test/" "chef-repo/")
-
- ("/home/noah/Desktop/" (20986 61275 911081 33000) "./" "#google-chrome.desktop#" "google-chrome.desktop" "../")
-
  ("/home/fmaster/" (20972 11144 589047 803000) ".bash_history" ".bashrc" ".profile" ".bash_logout" "examples.desktop" "./" "../")
 
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/templates/" (20985 11855 820891 620000) "./" "default/" "../")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/attributes/" (20986 47960 709613 623000) "default.rb" "#default.rb#" "./" "../")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/build/attributes/" (20986 43487 959434 450000) "default.rb" "./" "../")
 
  ("/home/noah/apps/chef-repo/site-cookbooks/pangea_app/" (20985 11855 820891 620000) "attributes/" "templates/" "./" "recipes/" "README.md" "../" "definitions/" "metadata.rb" "CHANGELOG.md")
 
  ("/home/noah/apps/ci_server_test/config/" (20978 48019 623930 603000) "browser_chrome.yml" "./" "deploy.rb" "config.yaml" "../" "browser_full.yml")
 
  ("/home/noah/apps/ci_server_test/scripts/" (20985 36174 88131 788000) "save-state_all_machines.sh" "view_machine" "start_all_machines.sh" "spindown" "register_vms" "run_tests.sh" "start_listener" "./" "spinup" "../" "logs/" "power-off_all_machines.sh" "kill_all_machines.sh")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/build/" (20986 42923 330952 98000) "libraries/" "attributes/" "files/" "templates/" "./" "recipes/" "README.md" "../" "definitions/" "providers/" "resources/" "metadata.rb" "CHANGELOG.md")
-
- ("/home/noah/apps/chef-repo/site-cookbooks/" (20986 42923 326954 72000) "nut/" "freepbx/" "win-site/" "apache2/" "iprenew/" "showings/" "asterisk/" "site/" "openvpn/" "workflow/" "chef/" "etckeeper/" "pangeare_property_search/" "linux_desktop/" "website/" "base/" "zoneminder/" "pacemaker/" "munin/" "autossh/" "gsync/" "postgresql/" "corosync/" "pcore_gui/" "app_monitor/" "powershell-master/" "pcore/" "bind9/" "glusterfs/" "hosts/" "certs/" "heartbeat/" "rsnapshot/" "lvm/" "nagios/" "pg_radiant/" "win-chef-client/" "request-tracker/" "database/" "reports/" "xen/" "pangea_app/" "kiosk/" "ocfs2/" "logcheck/" "iscsi/" "pw_master/" "windows.old/" "windows-hostname/" "pangea_api/" "kvm/" "./" "pangeare_mobile/" "postfix/" "proxmox/" "underwriting/" "zfs/" "sudo/" "pangeare_ce/" "apt/" "listing_site_integration/" "mysql/" "multipath/" "pangea_ruby/" "../" "users/" "fail2ban/" "powershell.old/" "bonding/" "README" "pangea_gems/" "zentyal/" "dnsmasq/" "amanda/" "chef-server/" "build/" "application/" "printers/" "drbd/" "dhcpd/" "duplicity/" "backup/" "pcore_api/" "bginfo/" "iptables/" "git_server/" "pangeare_website/" "quickbooks/" "testing/" "apticron/" "wdesktop/" "windows/" "logrotate/" "chef-client/" "kiosk_mailer/")
 
  ("/home/noah/apps/generic_rails/" (20978 41613 452164 110000) "browser_chrome.yml" "version.txt" "poo" ".git/" "./" "generic/" "../" "tellurium_driver.rb" "browser_full.yml" "features/")
 
