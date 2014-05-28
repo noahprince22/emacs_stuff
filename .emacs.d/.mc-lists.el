@@ -3,16 +3,12 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-		c-electric-star
-		indent-for-tab-command
-		save-buffers-kill-terminal
-		))
+	indent-for-tab-command
+	kill-region
+	save-buffers-kill-terminal
+	))
 
 (setq mc/cmds-to-run-once
       '(
-		c-electric-paren
-		goto-line
-		ido-find-file
-		js2-mode-match-bracket
-		kill-region
-		))
+	ido-find-file
+	))

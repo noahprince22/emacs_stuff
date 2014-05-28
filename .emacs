@@ -1,7 +1,7 @@
 ; Require package
 (require 'package)
 (add-to-list 'package-archives
-  '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  '("melpa" . "http://melpa.milkbox.net/packages/") t) 
 (package-initialize)
 ; xclip
 xclip-mode 1 
@@ -9,19 +9,11 @@ xclip-mode 1
 (require 'multiple-cursors)
 (global-set-key "\C-d" 'mc/mark-next-like-this)
 (global-set-key "\M-d" 'mc/mark-all-like-this)
-(add-hook 'c-initialization-hook
-		  (lambda ()
-			(define-key c++-mode-map "\C-d" 'mc/mark-next-like-this)))
 ;terminal
 (global-set-key "\C-t" 'multi-term)
 ; Ido mode
 (require 'ido)
 (ido-mode t)
-
-;;cofee mode
-(setq whitespace-action '(auto-cleanup)) ;; automatically clean up bad whitespace
-(setq whitespace-style '(trailing space-before-tab indentation empty space-after-tab)) ;; only show bad whitespace
-
 ; window resizer
 (require 'windsize)
 (windsize-default-keybindings)
@@ -88,7 +80,6 @@ xclip-mode 1
 (setq multi-term-program "/bin/bash")
 ; Tab 2
 (setq js-indent-level 2)
-(setq ruby-indent-level 2)
 (setq tab-width 2) ; or any other preferred value
 (defvaralias 'c-basic-offset 'tab-width)
 (defvaralias 'cperl-indent-level 'tab-width)
@@ -183,28 +174,29 @@ xclip-mode 1
 (global-set-key "\M-n" 'forward-paragraph)
 (global-set-key "\M-p" 'backward-paragraph)
 
-;;cpp stuff
-(require 'auto-complete-c-headers)
-(add-to-list 'ac-sources 'ac-source-c-headers)
-(add-hook 'c-mode-common-hook 'google-set-c-style)
-(add-hook 'c-mode-common-hook 'google-make-newline-indent)
 
-(add-to-list 'load-path "~/.emacs.d/elpa/flymake-cppcheck-20140117.1013/flymake-cppcheck.el")
-(require 'flymake-cppcheck)
-(add-hook 'c-mode-hook 'flymake-cppcheck-load)
-(add-hook 'c++-mode-hook 'flymake-cppcheck-load)
+;; highlight all characters past 80
+(require 'column-marker)
+(dolist (hook '(emacs-lisp-mode-hook
+		ruby-mode-hook
+		js-mode-hook
+                cperl-mode-hook
+                shell-mode-hook
+                text-mode-hook
+                change-log-mode-hook
+                makefile-mode-hook
+                message-mode-hook
+                texinfo-mode-hook
+                c-mode-common-hook
+                python-mode-hook))
+  (add-hook hook
+            '(lambda () (column-marker-3 80))))
 
-(custom-set-variables
-  '(flymake-cppcheck-enable "all"))
-
-(add-hook 'find-file-hook 'flymake-find-file-hook)
-
-
-(global-set-key (kbd "C-x e") 'flymake-popup-current-error-menu)
-(global-set-key (kbd "C-x n") 'flymake-goto-next-error)
-(global-set-key (kbd "C-x c") 'flymake-compile)
-
-(setq-default c-basic-offset 4)
+;; Theme
+  ;; (require 'color-theme)
+  ;;   (color-theme-initialize)
+  ;;   ;; (color-theme-robin-hood)
+  ;;  (color-theme-emacs-nw)
 
 
 
