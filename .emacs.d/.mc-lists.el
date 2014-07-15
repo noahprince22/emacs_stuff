@@ -3,12 +3,14 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	indent-for-tab-command
-	kill-region
-	save-buffers-kill-terminal
-	))
+        evilnc-comment-or-uncomment-lines
+        indent-for-tab-command
+        kill-region
+        save-buffers-kill-terminal
+        suspend-frame
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	ido-find-file
-	))
+        ido-find-file
+        ))
