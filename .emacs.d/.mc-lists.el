@@ -7,6 +7,7 @@
         indent-for-tab-command
         kill-region
         save-buffers-kill-terminal
+        sgml-slash
         suspend-frame
         ))
 
