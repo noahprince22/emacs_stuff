@@ -303,13 +303,22 @@
 
 (defvar my-keys-minor-mode-map (make-keymap) "my-keys-minor-mode keymap.")
 
+;;(use-package bind-key
+  ;;:ensure bind-key)
+
+(bind-key* "\M-o" 'forward-word)
 (global-set-key "\M-o" 'forward-word)
-(global-set-key"\M-h" 'end-of-line)
-(global-set-key"\M-\S-h" 'beginning-of-line)
-(global-set-key"\M-s" 'other-window)
-(global-set-key"\M-$" 'split-window-right)
-(global-set-key "\M-v" 'yank)
-(global-set-key(kbd "C-x 3") 'split-window-horizontally)
+(bind-key* "\M-h" 'end-of-line)
+(global-set-key "\M-h" 'end-of-line)
+(bind-key* "\M-\S-h" 'beginning-of-line)
+(global-set-key "\M-\S-h" 'beginning-of-line)
+(bind-key* "\M-s" 'other-window)
+(global-set-key "\M-s" 'other-window)
+(bind-key* "\M-$" 'split-window-right)
+(global-set-key "\M-$" 'split-window-right)
+(bind-key*  "\M-v" 'yank)
+(global-set-key  "\M-v" 'yank)
+(bind-key* (kbd "C-x 3") 'split-window-horizontally)
 (global-set-key(kbd "C-x 2") 'split-window-vertically)
 
 (use-package magit
@@ -370,11 +379,20 @@
 ;;; End of emacs
 
 ;; Poor attempt to enable mouse selection in osx
-(use-package mouse+
-  :ensure mouse+)
-(xterm-mouse-mode t)
-(defun track-mouse (e))
-(setq mouse-sel-mode t)
+;; Enable mouse support
+;;(unless window-system
+(require 'mouse)
+(require 'xt-mouse)
+  (xterm-mouse-mode t)
+  (global-set-key [mouse-4] '(lambda ()
+                               (interactive)
+                               (scroll-down 1)))
+  (global-set-key [mouse-5] '(lambda ()
+                               (interactive)
+                               (scroll-up 1)))
+  (defun track-mouse (e))
+  (setq mouse-sel-mode t)
+  ;;)
 
 (iswitchb-mode 1)
 
