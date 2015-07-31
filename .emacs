@@ -1,3 +1,5 @@
+;;; My awesome emacs setup, just plop this shit in your home directory 
+
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
@@ -10,16 +12,12 @@
 
 ;; xclip-mode 1
 
-
-(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
-(use-package powerline
-	     :ensure powerline)
-
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:background "nil"))))
  '(mode-line ((t (:foreground "#eee8d5" :background "#268bd2" :box nil))))
  '(mode-line-inactive ((t (:foreground "#268bd2" :background "black" :box nil))))
  '(rainbow-delimiters-depth-1-face ((t (:foreground "color-33"))))
@@ -420,3 +418,32 @@
 (define-key my-keys-minor-mode-map "\M-K" 'scroll-up-half)
 (define-key my-keys-minor-mode-map "\M-I" 'scroll-down-half)
 
+
+(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
+(use-package powerline
+  :ensure powerline)
+
+;; (defface powerline-active1 '((t (:background "#268bd2" :inherit-mode-line)))
+;;   "powerline face 1."
+;;   :group 'powerline)
+;; (defface powerline-inactive1 '((t (:background "#002b36" :inherit-mode-line)))
+;;   "powerline face 1."
+;;   :group 'powerline)
+
+(powerline-center-theme)
+
+;;(set-face-attribute 'mode-line-inactive nil :background "#002b36" :foreground "#002b36")
+;; (set-face-attribute 'mode-line nil
+;;                     :foreground "#fdf6e3"
+;;                     :background "#2aa198"
+;;                     :box nil)
+
+;; (set-face-attribute 'powerline-inactive1 nil :background "#002b36" :foreground "#002b36")
+;; (set-face-attribute 'powerline-inactive2 nil :background "#002b36" :foreground "#002b36")
+;; ;;(set-face-attribute 'powerline-active1 nil :background "#002b36" :foreground "#fdf6e3")
+
+;; (custom-set-faces (if (not window-system) '(default ((t (:background "nil"))))))
+
+;;(set-face-attribute 'powerline-active2 nil :background "#268bd2" :foreground "#268bd2")
+
+;;; End of my emacs file
