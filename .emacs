@@ -1,9 +1,12 @@
 ;;; My awesome emacs setup, just plop this shit in your home directory 
-
-(require 'package)
+(require 'package) ;; You might already have this line
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(package-initialize)
+             '("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this lin
+
 (if (not (package-installed-p 'use-package))
     (progn
       (package-refresh-contents)
@@ -296,7 +299,6 @@
 
  (ergoemacs-ignore-prev-global) ; Do not honor previously defined
                                         ; global keys.
-
 (ergoemacs-mode 1)
 
 (defvar my-keys-minor-mode-map (make-keymap) "my-keys-minor-mode keymap.")
@@ -355,6 +357,10 @@
   :ensure git-gutter)
 (global-git-gutter-mode +1)
 (git-gutter:linum-setup)
+
+;; smex
+(use-package smex
+  :ensure smex)
 
 ; Multiple cursors
 (use-package multiple-cursors
